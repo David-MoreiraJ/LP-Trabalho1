@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    height: 90px;
+    background-color: #fffb03;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.img {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.foto {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.foto:hover {
+    transform: scale(1.1);
+}
+
+.edital {
+    margin-bottom: 20px;
+}
+
+.cursos h4 {
+    color: #ff4500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.complemento {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+

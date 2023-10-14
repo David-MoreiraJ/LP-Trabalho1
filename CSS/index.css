@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    margin: 20px;
+    color: #333;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ff4500; /* Cor de laranja para o estado de hover */
+}
+
+img {
+    width: 400px;
+    height: 270px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+/* Estilos para dispositivos menores */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    img {
+        width: 80%;
+        height: auto;
+    }
+}
